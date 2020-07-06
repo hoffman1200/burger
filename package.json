@@ -1,5 +1,5 @@
 {
-  "name": "burguer",
+  "name": "burger",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoffman1200/burguer.git"
+    "url": "git+https://github.com/hoffman1200/burger.git"
   },
   "author": "@hoffman1200",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hoffman1200/burguer/issues"
+    "url": "https://github.com/hoffman1200/burger/issues"
   },
-  "homepage": "https://github.com/hoffman1200/burguer#readme",
+  "homepage": "https://github.com/hoffman1200/burger#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.5",

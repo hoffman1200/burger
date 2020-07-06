@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 
-var burguer = require("../models/burguer");
+var burger = require("../models/burger");
 
 
 // Export routes for server.js to use.
