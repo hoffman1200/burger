@@ -14,8 +14,11 @@ button {
     margin: 20px;
 }
 
-#bur {
-    height: 50px;
-    width: 250px;
+body {
+    background-color: darkorange;
+}
+
+form {
+    text-align: center;
 }
 
