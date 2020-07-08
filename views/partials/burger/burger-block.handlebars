@@ -1,11 +1,9 @@
 <li>
 	{{burger_name}}
 
-	{{!-- should only show button if burger is not devoured --}}
 	{{#unless devoured}}
 	<button class="change-devour" data-id="{{id}}" data-munch="{{true}}">
 		DEVOURE IT!
-		{{!-- don't think we need an else/if because it won't switch back and forth --}}
 	</button>
 	{{/unless}}
 </li>

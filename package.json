@@ -19,7 +19,7 @@
   "homepage": "https://github.com/hoffman1200/burger#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.5",
+    "express-handlebars": "^3.0.0",
     "mysql": "^2.18.1"
   }
 }

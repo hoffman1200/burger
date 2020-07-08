@@ -2,8 +2,6 @@ $(function () {
     $(".change-devour").on("click", function (event) {
         var id = $(this).data("id");
     
-        // change devoured = true
-        // do we need to pass over true or 1? 
         var newState = {
           devoured: true
         };
@@ -25,7 +23,6 @@ $(function () {
     var newBurger = {
         burger_name: $("#newBurger").val().trim()
     };
-    // console.log(newBurger);
     
     $.ajax("/api/burger", {
         type: "POST",
