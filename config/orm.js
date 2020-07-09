@@ -16,7 +16,7 @@ var orm = {
         // console.log("this is column" + column);
         // console.log("this is value" + value);
         var queryString = "INSERT INTO ?? (??) VALUES (?)";
-        connection.query(queryString, [table, column, value], function (err, res) {
+        connection.query(queryString, [table, column, value], (err, res) => {
             if(err) throw err;
             // console.log(res);
             cb(res);
@@ -24,7 +24,7 @@ var orm = {
     },
     updateOne: (table, column, burgerId, cb) => {
         var queryString = "UPDATE ?? SET ?? = 1 WHERE id = ?";
-        connection.query(queryString, [table, column, burgerId], function (err, res) {
+        connection.query(queryString, [table, column, burgerId], (err, res) => {
             console.log("update" + queryString);
             if (err) throw err;
             console.log(res);
